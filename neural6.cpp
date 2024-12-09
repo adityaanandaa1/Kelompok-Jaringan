@@ -139,17 +139,6 @@ int main() {
     // Neural network setup
     NeuralNetwork nn(3, 2, 3, 0.1);
 
-    // Dummy training data untuk contoh jika CSV tidak tersedia
-   // vector<vector<double>> dummyTrainingData = {
-     //   {0.4, 0.8, 0.9}, {0.5, 1, 0.8}, {0.3, 0.8, 0.8}};
-    
-    //vector<vector<double>> dummyTargetData = {
-      //  {0.3, 1, 0.6}, {0.5, 0.9, 0.9}, {0.5, 0.8, 0.9}};
-
-    // Gunakan dummy data jika tidak ada data dari CSV
-   // nn.train(dummyTrainingData.empty() ? dummyTrainingData : trainingData,
-     //         dummyTargetData.empty() ? dummyTargetData : trainingData, 1000);
-
     // Input baru dari pengguna
     double newTemp, newHum, newWind;
     cout << "Masukkan suhu hari ini (C): ";
